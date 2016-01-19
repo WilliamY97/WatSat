@@ -1,3 +1,9 @@
+
+.hideme
+{
+    opacity:0;
+}
+
 .floating{
     float: left;
     -webkit-animation-name: Floatingx;
