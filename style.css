@@ -1,5 +1,7 @@
 .backgroundchange{
 
+background-color:#660066;
+height:350px; 
   
 }
 
@@ -7,6 +9,11 @@
 {
     opacity:0;
 }
+
+.first{
+
+}
+
 
 .floating{
     float: left;
@@ -91,7 +98,7 @@ body {
 	font-weight: 100;
 }
 
-.container {
+.container_2 {
 	margin: 0 auto;
 	max-width: 940px; 
 	padding: 0 10px;
@@ -104,7 +111,7 @@ body {
   text-align: center; 
 }
 
-.header .container {
+.header .container_2 {
 	position: relative;
 	top: 125px;
 }
@@ -172,7 +179,7 @@ body {
 	transition: background .5s;  
 }
 
-.main .container {
+.main .container_2 {
 	margin: 80px auto;
 
 }
@@ -182,37 +189,72 @@ body {
 	margin: 0px 80px 50px 0;
 }
 
-.jumbotron {
+/*Start of Diagonal section*/
+section {
+    position: relative;
+    background: #660066;
+    color: ##660066;
+    text-align: center;
+}
+section:before {
+    position: absolute;
+    content:'';
+}
+section.diagonal {
+    background: #660066;
+}
+
+.diagonal {
+    z-index: 1;
+    padding: 3em;
+}
+.diagonal:before {
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    -webkit-transform-origin: 3% 0;
+    transform-origin: 3% 0;
+    top: 0;
+    left: -25%;
+    z-index: -1;
+    width: 130%;
+    height: 75%;
+    background: inherit;
+}
+
+/*End of Diagonal Content*/
+
+.jumbotron_2 {
 	background: url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg) center center;
 	background-size: cover;
 	height: 400px; 
 }
 
-.jumbotron .container {
+.jumbotron_2 .container_2 {
 	position: relative;
+  top: 120px;
 }
 
-.jumbotron h2 {
+.jumbotron_2 h2 {
 	color: #fff;
 	text-align: right; 
 }
 
-.jumbotron p {
+.jumbotron_2 p {
 	color: #fff; 
 	text-align: right; 
 }
 
-.jumbotron .btn {
+.jumbotron_2 .btn {
 	margin: 10px 0 0;
 	float: right; 
 }
 
-.footer { 
+.footer_2 { 
 	background: #000;
 	height: 80px; 
 }
 
-.footer p { 
+.footer_2 p { 
 	color: #fff;
 	font-size: 14px;  
 	height: 80px; 
@@ -226,7 +268,7 @@ body {
     line-height: 64px;
   }
 
-  .main, .jumbotron {
+  .main, .jumbotron_2 {
     padding: 0 30px;
   }
 
@@ -234,3 +276,4 @@ body {
     width: 100%;
   }
 }
+
