@@ -11,6 +11,14 @@ height:350px;
     opacity:0;
 }
 
+.row3{
+    background: url(img/a.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-margin-bottom:20px;
+
+}
+
 .first{
 
 }
@@ -231,9 +239,16 @@ section.diagonal {
 	height: 400px; 
 }
 
+.jumbotron_2 .container_1 {
+  position: relative;
+  left:100px;
+  top: 110px;
+}
+
 .jumbotron_2 .container_2 {
 	position: relative;
-  top: 120px;
+  top: 130px;
+  right: 100px;
 }
 
 .jumbotron_2 h2 {
