@@ -194,9 +194,16 @@ body {
 
 }
 
-.main img {
+.mainrow img {
 	float: left;
 	margin: 0px 80px 50px 0;
+}
+
+.sponsors img {
+
+  margin-right:70px;
+  margin-top:10px;
+  width:150px;height:90px;
 }
 
 /*Start of Diagonal section*/
