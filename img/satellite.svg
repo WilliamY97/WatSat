@@ -4,7 +4,7 @@
     <title>Imported Layers</title>
     <description>Created with Sketch.</description>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+    <g id="Page-1" stroke="none" stroke-width="1"  fill-rule="evenodd" sketch:type="MSPage">
         <g id="Imported-Layers" sketch:type="MSLayerGroup" fill="#FFFFFF">
             <path d="M656,830.833501 C701.777982,836.058599 749.534967,823.789796 788.338121,792.823089 C827.150939,761.848627 849.789655,717.920961 855,672.017646 L811.119852,667 C807.190834,701.629123 790.114199,734.761483 760.829201,758.137741 C731.548068,781.500427 695.527887,790.74856 661.001622,786.812772 L656,830.833501" id="Fill-1" sketch:type="MSShapeGroup"></path>
             <path d="M810.279507,820.013509 C763.865431,856.952618 706.754127,871.558164 652.002761,865.325767 L647,909.322576 C713.004672,916.831674 781.900172,899.219389 837.870258,854.674315 C893.855845,810.156364 926.476483,747.012903 934,681.006066 L890.017553,676 C883.77282,730.723816 856.712959,783.11121 810.279507,820.013509" id="Fill-2" sketch:type="MSShapeGroup"></path>
