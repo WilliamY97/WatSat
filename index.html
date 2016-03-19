@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html style="background-color:black;
-margin: 0px auto;
-width: 1280px;">
+<html style="background-color:black; margin: 0px auto; width: 1280px;">
 
 <head>
+  <title>WatSat: Waterloo Satellite Team</title>
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css">
@@ -18,27 +17,25 @@ width: 1280px;">
 <body>
   <div class="nav">
     <div class="container_2">
+      <img style="width:170px;height:50px; float:left; margin-top:15px; margin-right:100px;margin-left:60px;" src="https://uwaterloo.ca/sedra-student-design-centre/sites/ca.sedra-student-design-centre/files/styles/body-500px-wide/public/uploads/images/watsat_logo_300ppi-05.png?itok=Px4urinW">
       <ul>
-        <img style="width:170px;height:50px; float:left; margin-top:15px; margin-right:100px;margin-left:60px;" src="https://uwaterloo.ca/sedra-student-design-centre/sites/ca.sedra-student-design-centre/files/styles/body-500px-wide/public/uploads/images/watsat_logo_300ppi-05.png?itok=Px4urinW">
-        <li>Team</li>
-        <li>Schedule</li>
-        <li>Sponsors</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li style="float:right;">Log In</li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
   </div>
+
   <div class="header">
     <div class="container_2">
       <img style="margin-top:13px;" class="floating first" src="img/satellite.svg" height="180" width="220">
       <h1 style="margin-left:24%;" class="">Watsat</h1>
       <p style="margin-left:24%;" class="">Waterloo Satellite Team</p>
-      <a style="margin-left:0%;" class="btn " href="#">Learn More</a>
+      <a style="margin-left:0%;" class="btn" href="#about">Learn More</a>
     </div>
   </div>
 
-  <div style="background: url(img/blueprint.gif); " class="main mainrow">
+  <div id=about style="background: url(img/blueprint.gif);" class="main mainrow">
     <div style="padding-top:60px; height:340px;" class="container_2 ">
       <img class="tool" style="padding-top:20px;" src="img/satcad" height="200" width="240">
       <h2>Building The Satellite Of The Future</h2>
@@ -61,7 +58,7 @@ width: 1280px;">
       <div class="col-md-4" style="width:320px; padding-left:50px;">
         <img class="medias" src="img/compass.svg" style="width:50%;height:50%;">
         <h2>DESIGN</h2>
-        <p style="text-align:justify;">The WatSat team is compromised of several subsystem teams ranging from payload, propulsion, business, structures, data handling, control systems, communication, and power systems. Together the committees work to plan out the design of the satellite in weekly meetings.</p>
+        <p style="text-align:justify;">The WatSat team is comprised of several subsystem teams ranging from payload, propulsion, business, structures, data handling, control systems, communication, and power systems. Together the subteams work to plan out the design of the satellite in weekly meetings.</p>
       </div>
 
       <div class="col-md-4" style="width:320px; padding-left:50px;">
@@ -77,21 +74,16 @@ width: 1280px;">
   <div style="background-color:white; " class="main row3">
     <div style="padding-top:60px; height:340px; " class="container_2 ">
       <div style="height:200px; margin:20px; color:white; ">
-        <h1>SPONSORSHIP INFORMATION</h1>
-        <p style="text-align:justify;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-        <br>
-        <a style="" class="btn" href="#">Why Sponsor Us?</a>
-
       </div>
 
     </div>
 
-    <div style="background-color:white; padding-top:2%; " class="main sponsors">
+    <div id=sponsors style="background-color:white; padding-top:2%;" class="main sponsors">
       <Center>
-        <h2>CURRENT PARTNERS</h2>
+        <h2>SPONSORS</h2>
       </center>
 
-      <div style="padding-top:0%; margin-right:10%;height:460px; width:100%; " class="container_2 ">
+      <div style="padding-top:0%; margin-right:10%;height:460px; width:100%;" class="container_2">
         <img class="medias" src="img/logos/AGI.jpg">
         <img class="medias" src="img/logos/COM-DEV-logo.jpg">
         <img class="medias" src="img/logos/CSA_logo.png">
@@ -108,28 +100,28 @@ width: 1280px;">
       </div>
     </div>
 
-    <div class="jumbotron_2">
-
+    <div id=contact class="jumbotron_2">
       <div style="float:left;" class="container_1">
         <h2>Contact Us</h2>
-        <p>Send Us An E-Mail For More Information</p>
-        <a class="btn" href="#">Newsletter</a>
+        <p>Send us an email for more information</p>
+        <a class="btn" href="mailto:watsat.info@gmail.com">Email</a>
       </div>
 
       <div style="float:right;" class="container_2">
         <h2 style=" margin-top:0px;">Stay Connected</h2>
-        <p style="">Receive weekly insights from our team!</p>
-        <a style="" class="btn" href="#">Newsletter</a>
+        <p style="">Follow us on Facebook</p>
+        <a style="" class="btn" href="https://www.facebook.com/WatSat-Waterloo-Satellite-Design-Team-383516934999483/">Facebook</a>
       </div>
     </div>
 
     <div class="footer_2">
       <div class="container_2">
-        <p style="float:left;">&copy; Waterloo Satellite Team </p>
-        <p style="float:left; padding-left:190px;"> Made by William Yang in Waterloo, ON</p>
-        <p style="float:left; padding-left:190px;"> University of Waterloo</p>
+        <p style="float:left;">&copy; Waterloo Satellite Team</p>
+        <p style="float:left; padding-left:190px;">Website Design by William Yang</p>
+        <p style="float:left; padding-left:190px;">University of Waterloo</p>
       </div>
     </div>
+  </div>
 </body>
 
 </html>
