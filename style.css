@@ -2,8 +2,8 @@
 .backgroundchange{
 
 background-color:#660066;
-height:350px; 
-  
+height:350px;
+
 }
 
 .hideme
@@ -42,13 +42,13 @@ height:350px;
 @-webkit-keyframes Floatingx{
     from {-webkit-transform:translate(0, 0px);}
     65% {-webkit-transform:translate(0, 15px);}
-    to {-webkit-transform: translate(0, -0px);    }    
+    to {-webkit-transform: translate(0, -0px);    }
 }
-    
+
 @-moz-keyframes Floating{
     from {-moz-transform:translate(0, 0px);}
     65% {-moz-transform:translate(0, 15px);}
-    to {-moz-transform: translate(0, -0px);}    
+    to {-moz-transform: translate(0, -0px);}
 }
 
 
@@ -63,17 +63,17 @@ height:350px;
     -moz-animation-iteration-count:infinite;
     -moz-animation-timing-function:ease-in-out;
 }
-    
+
     @-webkit-keyframes scalex{
         from {-webkit-transform: scale(0.9);}
         65% {-webkit-transform: scale(1.0);}
-        to {-webkit-transform: scale(0.9);}    
+        to {-webkit-transform: scale(0.9);}
     }
-        
+
     @-moz-keyframes scale{
         from {-moz-transform: scale(0.9);}
         65% {-moz-transform: scale(1.0);}
-        to {-moz-transform: scale(0.9);}    
+        to {-moz-transform: scale(0.9);}
     }
 
 /*Floating Animation Ends*/
@@ -86,7 +86,7 @@ height:350px;
               transition: all 0.5s ease 0s;
               cursor:pointer;
           }
-          
+
           .tool:hover {
               -webkit-transform: rotate(360deg);
               -moz-transform: rotate(360deg);
@@ -109,15 +109,15 @@ body {
 
 .container_2 {
 	margin: 0 auto;
-	max-width: 940px; 
+	max-width: 940px;
 	padding: 0 10px;
 }
 
 .header {
-  background: url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg) no-repeat center center; 
+  background: url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg) no-repeat center center;
   background-size: cover;
   height: 520px;
-  text-align: center; 
+  text-align: center;
 }
 
 .header .container_2 {
@@ -127,11 +127,11 @@ body {
 
 .header h1 {
 	color: #fff;
-	line-height: 100px; 
+	line-height: 100px;
 	font-size: 80px;
 	margin-top: 0;
 	margin-bottom: 30px;
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
 
 @media (min-width:850px) {
@@ -148,49 +148,49 @@ body {
 	letter-spacing: 8px;
   margin-bottom: 34px;
 
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
 
 .btn {
 	color: #fff;
 	background: #000;
 	padding: 10px 40px;
-	text-decoration: none; 
-	transition: background .5s; 
+	text-decoration: none;
+	transition: background .5s;
 }
 
-.nav { 
+.nav {
 	background: #000;
-	height: 80px; 
+	height: 80px;
 	width: 100%;
 }
 
 .nav ul {
 	height: 80px;
 	list-style: none;
-	margin: 0 auto; 
+	margin: 0 auto;
 	padding: 0;
 }
 
 .nav ul li {
 	color: #fff;
-	display: inline-block; 
+	display: inline-block;
 	height: 80px;
-	line-height: 80px; 
+	line-height: 80px;
 	list-style: none;
 	padding: 0 10px;
-	transition: background .5s; 
+	transition: background .5s;
 }
 
 .btn:hover, .nav ul li:hover {
 	background: #117bff;
-	cursor: pointer; 
-	transition: background .5s;  
+	cursor: pointer;
+	transition: background .5s;
 }
 
 .main .container_2 {
 /*  problem
-*/	margin: 0px auto; 
+*/	margin: 0px auto;
 
 }
 
@@ -243,7 +243,7 @@ section.diagonal {
 .jumbotron_2 {
 	background: url(http://cdni.wired.co.uk/1240x826/s_v/space_11.jpg) center center;
 	background-size: cover;
-	height: 400px; 
+	height: 400px;
 }
 
 .jumbotron_2 .container_1 {
@@ -260,30 +260,30 @@ section.diagonal {
 
 .jumbotron_2 h2 {
 	color: #fff;
-	text-align: right; 
+	text-align: right;
 }
 
 .jumbotron_2 p {
-	color: #fff; 
-	text-align: right; 
+	color: #fff;
+	text-align: right;
 }
 
 .jumbotron_2 .btn {
 	margin: 10px 0 0;
-	float: right; 
+	float: right;
 }
 
-.footer_2 { 
+.footer_2 {
 	background: #000;
-	height: 80px; 
+	height: 80px;
 }
 
-.footer_2 p { 
+.footer_2 p {
 	color: #fff;
-	font-size: 14px;  
-	height: 80px; 
+	font-size: 14px;
+	height: 80px;
 	line-height: 80px;
-	margin: 0;  
+	margin: 0;
 }
 
 @media (max-width: 500px) {
@@ -301,3 +301,7 @@ section.diagonal {
   }
 }
 
+.nav li > a {
+  color: inherit;
+  text-decoration: inherit;
+}
